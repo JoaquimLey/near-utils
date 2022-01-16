@@ -1,9 +1,7 @@
 # NEAR protocol utils
-This is a simple repository where I intent to share some utils, info, docs, scripts that I find useful for myself while building for the NEAR contracts
+A simple repository where you can find docs, scripts and other utils when building NEAR contracts.
 
-All of these come down with personl preference and needs, feel free to 
-contribute, create issues or make any suggestions.
-
+Feel free to contribute, open issues or make any suggestions.
 
 ## Wth is NEAR?
 A climate-neutral, high-speed, and low transaction fee Layer-1 Blockchain platform. Reimagine your world.

@@ -9,6 +9,7 @@ for var in "$@"
 do
   case $var in
     -h|--help)
+     echo "v1.0.0 - Jan 2022"
      echo "Utility script to help you compile, reset profile and deploy contracts on the NEAR blockchain"
      echo "Available options:"
      echo "| "
@@ -24,10 +25,10 @@ do
      echo "For more information please check the docs: https://docs.near.org/docs/develop/basics/getting-started"
      echo " "
      echo "Author:"
-     echo "| Joaquim Ley <joaquimley@gmail.com> joaquimley.near | Jan 2022"
+     echo "| Joaquim Ley <joaquimley@gmail.com> @joaquimley"
      echo "| Based on 'NEAR examples' build script available on GitHub: https://github.com/near-examples/NFT/blob/master/build.sh"
      echo " "
-     echo "Issues: "
+     echo "Issues tracker: https://github.com/JoaquimLey/near-utils/issues"
      ;;
      
     -d|--deploy)
