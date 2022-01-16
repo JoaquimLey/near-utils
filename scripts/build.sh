@@ -8,7 +8,7 @@ IS_DEPLOY=false
 for var in "$@"
 do
   case $var in
-    -h|--help)
+    -h|--help)<
      echo "v1.0.0 - Jan 2022"
      echo "Utility script to help you compile, reset profile and deploy contracts on the NEAR blockchain"
      echo "Available options:"
@@ -21,6 +21,8 @@ do
      echo "| "
      echo "| --deploy | -d: Deploys the contract on the NEAR testnet with: near dev-deploy --wasmFile ./out/main.wasm"
      echo "| "
+     echo "| --all | -a: Does all the things! Compiles, resets and deploys"
+     echo "| "
      echo " "
      echo "For more information please check the docs: https://docs.near.org/docs/develop/basics/getting-started"
      echo " "
@@ -28,7 +30,7 @@ do
      echo "| Joaquim Ley <joaquimley@gmail.com> @joaquimley"
      echo "| Based on 'NEAR examples' build script available on GitHub: https://github.com/near-examples/NFT/blob/master/build.sh"
      echo " "
-     echo "Issues tracker: https://github.com/JoaquimLey/near-utils/issues"
+     echo "Issue tracker: https://github.com/JoaquimLey/near-utils/issues"
      ;;
      
     -d|--deploy)
@@ -38,6 +40,11 @@ do
       IS_RESET_PROFILE=true
       ;;
     -c|--compile)
+      IS_COMPILE=true
+      ;;
+    -a|--all)
+      IS_DEPLOY=true
+      IS_RESET_PROFILE=true
       IS_COMPILE=true
       ;;
   esac
