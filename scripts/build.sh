@@ -8,7 +8,7 @@ IS_DEPLOY=false
 for var in "$@"
 do
   case $var in
-    -h|--help)<
+    -h|--help)
      echo "v1.0.0 - Jan 2022"
      echo "Utility script to help you compile, reset profile and deploy contracts on the NEAR blockchain"
      echo "Available options:"
