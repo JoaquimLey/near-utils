@@ -12,8 +12,12 @@ Visit [near.org](https://near.org) for more information
 
 # Scripts
 
-## build.sh
+## [build.sh](https://github.com/JoaquimLey/near-utils/blob/master/build.sh)
 - Simple script to include in all `/contracts` folder to make it easier to compile, and deploy to test net.
+
+```bash
+curl https://raw.githubusercontent.com/JoaquimLey/near-utils/master/build.sh -o build.sh
+```
 
 
 # Dev Environment
