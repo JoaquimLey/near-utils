@@ -1,10 +1,10 @@
-# NEAR protocol utils
-A repository where you can find docs, scripts and other utils for building on NEAR.
+# NEAR Utils
+A repository where you can find docs, scripts and other utils when  building on NEAR.
 ### Contributing
-Feel free to create a PR, open an issue, or make any suggestions.
+Feel free to create a PR, open an issue, or make any suggestion(s).
 
 # NEAR
-A climate-neutral, high-speed, and low transaction fee Layer-1 Blockchain platform. Reimagine your world.
+A climate-neutral, high-speed, and low transaction fee Layer-1 Blockchain platform.
 
 Visit [near.org](https://near.org) for more information
 
