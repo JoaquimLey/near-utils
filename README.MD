@@ -1,7 +1,8 @@
 # NEAR protocol utils
-A simple repository where you can find docs, scripts and other utils when building NEAR contracts.
+A repository where you can find docs, scripts and other utils for building on NEAR.
 
-Feel free to contribute, open issues or make any suggestions.
+## Contributing
+Feel free to create a PR, open an issue, or make any suggestions.
 
 ## Wth is NEAR?
 A climate-neutral, high-speed, and low transaction fee Layer-1 Blockchain platform. Reimagine your world.
@@ -10,11 +11,11 @@ Visit [near.org](https://near.org) for more information
 
 # Scripts
 
-## [build.sh](https://github.com/JoaquimLey/near-utils/blob/master/build.sh)
-- Simple script to include in all `/contracts` folder to make it easier to compile, and deploy to test net.
+## [build.sh](https://github.com/JoaquimLey/near-utils/blob/master/scripts/build.sh)
+- Simple script to make it easier to compile, and deploy to testnet.
 
 ```bash
-curl https://raw.githubusercontent.com/JoaquimLey/near-utils/master/build.sh -o build.sh
+curl https://raw.githubusercontent.com/JoaquimLey/near-utils/master/scripts/build.sh -o build.sh
 ```
 
 
