@@ -1,13 +1,17 @@
 # NEAR protocol utils
 A repository where you can find docs, scripts and other utils for building on NEAR.
-
-## Contributing
+### Contributing
 Feel free to create a PR, open an issue, or make any suggestions.
 
-## Wth is NEAR?
+# NEAR
 A climate-neutral, high-speed, and low transaction fee Layer-1 Blockchain platform. Reimagine your world.
 
 Visit [near.org](https://near.org) for more information
+
+- [Official docs](https://docs.near.org/docs/develop/basics/getting-started)
+- [GitHub Examples](https://github.com/near-examples)
+- [Wallet](https://wallet.near.org/)
+- [Explorer](https://explorer.near.org/)
 
 # Scripts
 
@@ -37,10 +41,3 @@ curl https://raw.githubusercontent.com/JoaquimLey/near-utils/master/scripts/buil
 - [search-crates-io](https://marketplace.visualstudio.com/items?itemName=belfz.search-crates-io): Rust's crates suggestions in your Cargo.toml file
 - [GitLens — Git supercharged](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens): It helps you to visualize code authorship at a glance via Git blame annotations and code lens
 - [Rainbow Brackets](https://marketplace.visualstudio.com/items?itemName=2gua.rainbow-brackets): Provide rainbow colors for the round brackets, the square brackets and the squiggly brackets.
-
-
-# NEAR
-- [Official docs](https://docs.near.org/docs/develop/basics/getting-started)
-- [GitHub Examples](https://github.com/near-examples)
-- [Wallet](https://wallet.near.org/)
-- [Explorer](https://explorer.near.org/)
